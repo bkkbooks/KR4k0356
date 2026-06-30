@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR4k0356/v1
+canonical_location: https://kanripo.org/bkk/KR4k0356/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 春秋後語一卷
+  identifiers:
+    krp: KR4k0356
+  tags:
+    kr-categories: KR4k
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR4k0356.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR4k0356_001.yaml, hash: 'sha256:f96fbb13d83fc86c88a674412c2d2d8882837e884c55c3bb3c69bb0f868bcda0'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR4k0356_001.markers.yaml, hash: 'sha256:90fddec0e551eb4dcddd5a57d2115e5fdc8675fc2f8c5978eb86a3481dfeea61'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR4k0356_CHANT_001-1a.1-h
+    span:
+    - front
+    - 0
+    - 420
+  label: 序錄
+  type: section
+  level: 1
+hash: sha256:8e2b944d373add2fd32c614032ae8cd8662f3382f1285aff0caedd2f4ef0201e
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
