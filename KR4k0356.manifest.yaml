@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR4k0356/v1
 canonical_location: https://kanripo.org/bkk/KR4k0356/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 春秋後語一卷
   identifiers:
@@ -17,9 +17,9 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 1, filename: KR4k0356_001.yaml, hash: 'sha256:e5651d99a531603c90bd6b8f33bf005c068d9e8afe96b34eb847bd0f6aacd6ec'}
+  - {seq: 1, filename: KR4k0356_001.yaml, hash: 'sha256:760bba2651bd6ba052dd2f6538ac0bbdac0204a4d3a5c8437189026de0953d08'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR4k0356_001.markers.yaml, hash: 'sha256:3022861524bc3f4b8e58b5894fe95c1c4d052d730ec4b733ecc6ce1ffaf2b5d3'}
+  - {seq: 1, role: markers, filename: assets/KR4k0356_001.markers.yaml, hash: 'sha256:acacedc4873440fae5a73bb15b9ee40874882d0e7a2450b7594de24edcda781a'}
 table_of_contents:
 - ref:
     seq: 1
@@ -31,4 +31,7 @@ table_of_contents:
   label: 序錄
   type: section
   level: 1
-hash: sha256:7aacd28357e46798dfe33774b3f10a5506953d43748fd0a82be448d2393088ec
+hash: sha256:9c39cbf698cdf4568f28d049d18422096b32a0ec7ab891407d1f56898107a227
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
